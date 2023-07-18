@@ -6,7 +6,7 @@ In this tutorial, the focus is on a regex string designed to identify dates in t
 ## Summary
 This tutorial specifically focuses on the following regex used to find dates in the format of dd-MM-YYYY:. This regex is composed of 3 strings, joined with an OR operator ( | ), and they are separated out below in the code snippet.
 
-The three strings look for each component in the date format - day, month, and year - respectively.
+The three strings look for each component in the date format - day, month, and year.
 ```
 ^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|
 
